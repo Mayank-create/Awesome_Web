@@ -2,6 +2,21 @@ body{
     background-image: linear-gradient(to right, #ff5722, #ff9800);
     margin-top: 150px !important;
 }
+#box{
+    background-image:url("images/foods.jpeg");
+}
+#login{
+    color:darkblue;
+    font-size:40px; 
+    text-shadow: 
+    -1px 1px 0 white, 
+    1px  1px 0 white, 
+    1px -1px 0 white, 
+   -1px -1px 0 white; 
+}
+#login:hover{
+    transform:translate(10px,5px);
+}
 .register-left{
     text-align: center;
     color: #fff;
@@ -58,10 +73,14 @@ body{
 
 .register-right .btn-primary:hover{
     background: #ff5722;
+    background: antiquewhite;
 }
 
 @keyframes mover{
     0%{transform: translateY(0);}
     100%{transform: translateY(-20px);}
 }
+#name,#email,#username,#number{
+    border-radius: 100px;
 }
+
